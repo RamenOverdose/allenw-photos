@@ -1,0 +1,26 @@
+#nav-t{
+  text-align: center;
+  margin-top: 7%;
+}
+
+.navbar-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-t-item {
+  padding-left: 12%;
+  padding-right: 12%;
+  display: inline;
+}
+
+.nav-t-link {
+  text-decoration: none;
+  font-size: 150%;
+  color: black;
+}
+
+.nav-t-link:hover {
+  color: gray;
+}

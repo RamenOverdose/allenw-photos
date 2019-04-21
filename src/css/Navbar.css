@@ -1,0 +1,18 @@
+#nav {
+  text-align: center;
+}
+
+.navbar-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  padding: 1.5%;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+}
