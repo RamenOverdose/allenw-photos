@@ -8,7 +8,7 @@ class NavBottom extends Component {
   }
 
   about() {
-    
+    document.getElementById("home-img").src = "./img/profile-square.jpg";
   }
 
   defaultimg() {

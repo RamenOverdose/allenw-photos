@@ -8,7 +8,7 @@ class NavTop extends Component {
   }
 
   event() {
-    document.getElementById("home-img").src = "./img/equinox-square.jpg";
+    document.getElementById("home-img").src = "./img/artpile-square.jpg";
   }
 
   defaultimg() {
