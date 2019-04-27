@@ -5,14 +5,17 @@ class NavBottom extends Component {
 
   lifestyle() {
     document.getElementById("home-img").src = "./img/board-square.jpg";
+    document.getElementById("home-img").style.border = "1.2px solid white";
   }
 
   about() {
     document.getElementById("home-img").src = "./img/profile-square.jpg";
+    document.getElementById("home-img").style.border = "1.2px solid white";
   }
 
   defaultimg() {
     document.getElementById("home-img").src = "./img/black-full-square.png";
+    document.getElementById("home-img").style.border = "1.2px solid #505050";
   }
 
   render() {
