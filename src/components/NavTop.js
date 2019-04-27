@@ -20,10 +20,10 @@ class NavTop extends Component {
 
   render() {
     return (
-      <nav className="navbar navbar-expand-lg navbar-light bg-white fixed-top scrolling-navbar" id="nav-t">
-        <ul className="navbar-nav mr-auto">
+      <nav id="nav-t">
+        <ul className="navbar-nav">
           <li className="nav-t-item">
-            <a className="nav-t-link" href="/" onMouseOver={this.portrait} onMouseOut={this.defaultimg}>portrait</a>
+            <a className="nav-t-link" href="../Portrait.js" onMouseOver={this.portrait} onMouseOut={this.defaultimg}>portrait</a>
           </li>
           <li className="nav-t-item">
             <a className="nav-t-link" href="/" onMouseOver={this.event} onMouseOut={this.defaultimg}>event</a>

@@ -20,8 +20,8 @@ class NavBottom extends Component {
 
   render() {
     return (
-      <nav className="navbar navbar-expand-lg navbar-light bg-white fixed-top scrolling-navbar" id="nav-b">
-        <ul className="navbar-nav mr-auto">
+      <nav id="nav-b">
+        <ul className="navbar-nav">
           <li className="nav-b-item">
             <a className="nav-b-link" href="/" onMouseOver={this.lifestyle} onMouseOut={this.defaultimg}>lifestyle</a>
           </li>

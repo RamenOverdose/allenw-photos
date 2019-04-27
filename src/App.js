@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import Home from './Home.js';
+import Home from './Home';
+import Portrait from './Portrait';
 import logo from './logo.svg';
 import './App.css';
 
@@ -12,6 +13,7 @@ class App extends Component {
         <Router>
           <Switch>
             <Route exact path="/" component={Home}/>
+            <Route exact path="/Portrait.js" component={Portrait}/>
           </Switch>
         </Router>
       </div>
