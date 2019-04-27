@@ -15,9 +15,11 @@ class Portrait extends Component {
         <Row className="img-row">
           <Col lg={6} xl={6}>
             <img src="./img/ben.jpg" alt="ben" className="photo"/>
+            <img src="./img/kevin.jpg" alt="kevin" className="photo"/>
           </Col>
           <Col lg={6} xl={6}>
             <img src="./img/billy.jpg" alt="billy" className="photo"/>
+            <img src="./img/arpan.jpg" alt="arpan" className="photo"/>
           </Col>
         </Row>
       </Container>
