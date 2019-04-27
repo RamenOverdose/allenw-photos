@@ -1,10 +1,26 @@
 import React, { Component } from 'react';
 import Navbar from './components/Navbar';
+import './css/Photopage.css';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 class Portrait extends Component {
   render() {
     return(
-      <Navbar/>
+      <Container>
+        <h1 className = "page-header">portrait</h1>
+        <Navbar/>
+
+        <Row className="img-row">
+          <Col lg={6} xl={6}>
+            <img src="./img/ben.jpg" alt="ben" className="photo"/>
+          </Col>
+          <Col lg={6} xl={6}>
+            <img src="./img/billy.jpg" alt="billy" className="photo"/>
+          </Col>
+        </Row>
+      </Container>
     );
   }
 }

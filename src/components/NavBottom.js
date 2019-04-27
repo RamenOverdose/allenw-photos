@@ -23,10 +23,10 @@ class NavBottom extends Component {
       <nav id="nav-b">
         <ul className="navbar-nav">
           <li className="nav-b-item">
-            <a className="nav-b-link" href="/" onMouseOver={this.lifestyle} onMouseOut={this.defaultimg}>lifestyle</a>
+            <a className="nav-b-link" href="../Lifestyle.js" onMouseOver={this.lifestyle} onMouseOut={this.defaultimg}>lifestyle</a>
           </li>
           <li className="nav-b-item">
-            <a className="nav-b-link" href="/about" onMouseOver={this.about} onMouseOut={this.defaultimg}>about</a>
+            <a className="nav-b-link" href="../About.js" onMouseOver={this.about} onMouseOut={this.defaultimg}>about</a>
           </li>
         </ul>
       </nav>

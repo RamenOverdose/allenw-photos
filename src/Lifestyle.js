@@ -5,15 +5,15 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-class Event extends Component {
+class Lifestyle extends Component {
   render() {
     return(
       <Container>
-        <h1 className = "page-header">event</h1>
+        <h1 className = "page-header">lifestyle</h1>
         <Navbar/>
       </Container>
     );
   }
 }
 
-export default Event;
+export default Lifestyle;

@@ -4,7 +4,7 @@ import '../css/NavTop.css';
 class NavTop extends Component {
 
   portrait() {
-    document.getElementById("home-img").src = "./img/ben.jpg";
+    document.getElementById("home-img").src = "./img/ben-square.jpg";
     document.getElementById("home-img").style.border = "1.2px solid white";
   }
 
