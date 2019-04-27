@@ -26,7 +26,7 @@ class NavTop extends Component {
             <a className="nav-t-link" href="../Portrait.js" onMouseOver={this.portrait} onMouseOut={this.defaultimg}>portrait</a>
           </li>
           <li className="nav-t-item">
-            <a className="nav-t-link" href="/" onMouseOver={this.event} onMouseOut={this.defaultimg}>event</a>
+            <a className="nav-t-link" href="../Event.js" onMouseOver={this.event} onMouseOut={this.defaultimg}>event</a>
           </li>
         </ul>
       </nav>

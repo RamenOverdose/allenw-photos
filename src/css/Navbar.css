@@ -1,18 +1,19 @@
 #nav {
-  text-align: center;
-}
-
-.navbar-nav {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.nav-item {
-  padding: 1.5%;
+  margin-top: 3vh;
 }
 
 .nav-link {
+  text-align: center;
   text-decoration: none;
-  color: black;
+  font-size: 120%;
+  color: #505050;
+  letter-spacing: 0.1em;
+  border: 1px solid #505050;
+  border-radius: 30px;
+  margin: 2% 15%;
+}
+
+.nav-link:hover {
+  background-color: #505050;
+  color: white;
 }

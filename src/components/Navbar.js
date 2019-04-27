@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import '../css/Navbar.css';
+import '../css/Navbar.css';
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
@@ -16,16 +16,16 @@ class Navbar extends Component {
           />
         </head>
         <Row>
-          <Col lg={3}>
+          <Col md={6} lg={3} xl={3}>
             <a className="nav-link" href="../Portrait.js">portrait</a>
           </Col>
-          <Col lg={3}>
-            <a className="nav-link" href="/">event</a>
+          <Col md={6} lg={3} xl={3}>
+            <a className="nav-link" href="../Event.js">event</a>
           </Col>
-          <Col lg={3}>
+          <Col md={6} lg={3} xl={3}>
             <a className="nav-link" href="/">lifestyle</a>
           </Col>
-          <Col lg={3}>
+          <Col md={6} lg={3} xl={3}>
             <a className="nav-link" href="/">about</a>
           </Col>
         </Row>
