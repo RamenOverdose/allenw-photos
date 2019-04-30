@@ -11,6 +11,15 @@ class Event extends Component {
       <Container>
         <h1 className = "page-header">event</h1>
         <Navbar/>
+
+        <Row className="img-row">
+          <Col lg={6} xl={6}>
+            <img src="./img/artpile.jpg" alt="artpile" className="photo"/>
+          </Col>
+          <Col lg={6} xl={6}>
+            <img src="./img/pjw.jpg" alt="pjw" className="photo"/>
+          </Col>
+        </Row>
       </Container>
     );
   }
